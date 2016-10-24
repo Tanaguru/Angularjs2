@@ -1,0 +1,25 @@
+.block {
+	background-color: #fff;
+	display: block;
+	overflow: hidden;
+}
+.block p {
+	border: solid 1px #000;
+	box-shadow: 0 0 6px #ccc inset;
+	margin-top: 20px;
+	padding: 20px;
+}
+/* ouvert */
+.expanded-true {
+	max-height: 80em;
+	visibility: visible;
+	transition: visibility 0s ease, max-height 3s ease-out;
+	transition-delay: 0s;
+}
+/* fermé */
+.expanded-false {
+	max-height: 0;
+	visibility: hidden;
+	transition: max-height 0.5s ease-out, visibility 0s ease;
+	transition-delay: 0s, 0.5s;
+}
