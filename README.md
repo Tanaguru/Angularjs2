@@ -13,5 +13,5 @@ Le but est aussi de faire évoluer cette liste pour offrir un maximum de possibi
 La liste des développements rendus accessibles :
  - Un bouton affichant une modale ;
  - Un bouton plier/déplier ;
- - Un système d'accumulation dans la page ;
+ - Une liste d'élément avec système d'accumulation dans la page ;
  - Une gestion des erreurs.
