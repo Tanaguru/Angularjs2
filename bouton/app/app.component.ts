@@ -6,6 +6,7 @@ import { ModalService } from './modal.service';
 	template: `
 	  <ngc2-notification-button 
 	    message="Hello!"
+	    id="ngc2-notification-button"
 	    label="Greeting"
 	    role="button"
 	    tabindex="0">
