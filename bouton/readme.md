@@ -29,4 +29,4 @@ La modal a également été rendu accessible. Lorsqu'elle est affiché dans la p
 
 ## Développement à venir
 
-Lorsque la modal est affiché et que l'on active le bouton "Ok" avec la touche "Entrée", la modal est affichée aussitôt après avoir été fermée sur firefox. Nous cherchons une solution à ce problème
+Lorsque la modal est affiché et que l'on active le bouton "Ok" avec la touche "Entrée", la modal est affichée aussitôt après avoir été fermée. Nous cherchons une solution à ce problème
