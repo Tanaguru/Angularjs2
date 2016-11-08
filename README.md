@@ -1,4 +1,4 @@
-# Angular2
+# Angular2 accessible
 Projet de mise en accessibilité de composants développés en Angular2
 
 Le but est de proposer aux développeurs des composants Angular2 déjà accessibles.
