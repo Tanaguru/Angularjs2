@@ -1,4 +1,4 @@
-import { Component, Input, HostBinding, Output, EventEmitter, ElementRef } from '@angular/core';
+import { Component, Input, HostBinding, Output, EventEmitter, ElementRef, HostListener } from '@angular/core';
 import { ModalService } from './modal.service';
 
 @Component({
@@ -10,7 +10,7 @@ import { ModalService } from './modal.service';
       aria-describedby="modal-description">
       <div id="modal-title">{{title}}</div>
       <p id="modal-description">{{description}}</p>
-      <button (click)="close.emit()">OK</button>
+      <button type="button" id="close-button" (click)="close.emit()">OK</button>
     </div>
   `,
   styles: [`
@@ -69,5 +69,12 @@ export class ModalComponent {
         }, 0);
       }
     })
+  }
+
+  @HostListener('keyup', ['$event'])
+  keyboardInput(event: any) {
+    if (event.keyCode == 27) {
+      this.modal.close();
+    }
   }
 }
