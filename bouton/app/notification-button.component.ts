@@ -37,7 +37,7 @@ export class NotificationButtonComponent {
   }
   @HostListener('keyup', ['$event'])
   keyboardInput(event: any) {
-    if (event.keyCode == 13 || event.keyCode == 32) {
+    if (event.keyCode == 32 || event.keyCode == 13) {
       this.notification.notify(this.message)
     }
   }
