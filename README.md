@@ -9,9 +9,10 @@ Au début du projet, 4 composants ont été rendus accessibles.
 
 Le but est aussi de faire évoluer cette liste pour offrir un maximum de possibilités aux développeurs.
 
-## La liste
+## La liste des composants
 La liste des développements rendus accessibles :
  - Un bouton affichant une modale ;
  - Un bouton plier/déplier ;
  - Une liste d'élément avec système d'accumulation dans la page ;
  - Une gestion des erreurs.
+
