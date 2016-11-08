@@ -23,9 +23,14 @@ export class ModalService {
   
   open() {
     this.visible = true;
+    var el = document.getElementById('ngc2-notification-button');
+    el.setAttribute("tabindex", "-1");
   }
   
   close() {
     this.visible = false;
+    var el = document.getElementById('ngc2-notification-button');
+    el.setAttribute("tabindex", "0");
+    el.focus();
   }
 }
