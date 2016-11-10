@@ -82,17 +82,13 @@ https://plnkr.co/users/jamesbs
 
 L'accessibilité a été réalisée en suivant les normes du RGAA.
 
-Le fork accessible a été réalisé par Régis L. :
+Le fork accessible réalisé par l'équipe Tanaguru :
 
 https://plnkr.co/edit/nXMDtYP5nQAaxmtKZqXt?p=preview
 
 ### Composant Toggle bouton
 
-Le code à été réalisé par Améziane :
-
-https://plnkr.co/users/amezigh
-
-Le code du composant accessible :
+Le code accessible réalisé par l'équipe Tanaguru :
 
 https://plnkr.co/edit/D0zeP4eOAR1iZHp3tNwc?p=preview
 
@@ -108,7 +104,7 @@ https://plnkr.co/users/sonukapoor
 
 L'accessibilité a été réalisée en suivant les recommandations de Romain Gervois.
 
-Voici le fork accessible réalisé par William Etiemble:
+Le fork accessible réalisé par l'équipe Tanaguru :
 
 https://plnkr.co/edit/hxoO2DqWwg6WOLrDd7X9?p=preview
 
