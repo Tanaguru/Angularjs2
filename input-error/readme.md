@@ -13,6 +13,10 @@ https://plnkr.co/users/watrool
 
 L'accessibilité a été réalisée en suivant les recommandations de Romain Gervois
 
+Le fork accessible réalisé par l'équipe Tanaguru :
+
+https://plnkr.co/edit/QD5Um3?p=preview
+
 ## Le composant
 
 Ce composant présente simplement un champ de formulaire email qui est obligatoire. Si l'utilisateur passe le champ sans le compléter, un message apparait lui demandant de renseigner le champ.
