@@ -1,5 +1,5 @@
 <section >
-  <form #myForm="ngForm" (ngSubmit)="submitForm(myForm)">
+  <form #myForm="ngForm">
     <p>Les champs suivis de la mention "*" sont obligatoires</p>
     <label for="name">Mail * : </label>
     <input type="text" required aria-required="true" name="name" id="name" [(ngModel)]="myModel" (ngModelChange)="toggleCtrlInput($event)" (blur)="toggleCtrlInput($event)" [attr.aria-describedby]="ctrlInput" />
