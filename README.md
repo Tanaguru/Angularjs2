@@ -119,3 +119,7 @@ Exemple réalisé par Watrool
 https://plnkr.co/users/watrool
 
 L'accessibilité a été réalisée en suivant les recommandations de Romain Gervois
+
+Le fork accessible réalisé par l'équipe Tanaguru :
+
+https://plnkr.co/edit/QD5Um3?p=preview
