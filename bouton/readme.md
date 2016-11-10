@@ -13,7 +13,7 @@ https://plnkr.co/users/jamesbs
 
 L'accessibilité a été réalisée en suivant les normes du RGAA.
 
-Le fork accessible a été réalisé par Régis L. :
+Le fork accessible réalisé par l'équipe Tanaguru :
 
 https://plnkr.co/edit/nXMDtYP5nQAaxmtKZqXt?p=preview
 
