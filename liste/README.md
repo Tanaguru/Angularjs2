@@ -24,6 +24,9 @@ Ce composant présente une liste finie d'éléments. Un bouton permet d'afficher
 
 Le bouton a été rendu accessible et fonctionnel au clavier. Il est possible d'activer le bouton avec les touches "Entrée" et "Espace". L'utilisateur de technologie d'assistance est averti que le nombre d'éléments dans la liste a été augmenté. Il peut également continuer à lire la liste là où il l'avait terminé.
 
+Pour que l'ensemble soit accessible, nous avons procédé aux développements suivants :
+ - 
+
 ## Développement à venir 
 
 Nous pensons à supprimer ou rendre non fonctionnel le bouton lorsqu'il n'y a plus d'élément à ajouter à la liste.
