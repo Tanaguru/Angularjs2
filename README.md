@@ -66,7 +66,7 @@ Le modèle utilisé servait essentiellement à illustrer comment récupérer l'i
 
 Notre composant est plus complexe, un contrôle est fait sur le champ pour afficher unn message s'il n'est pas renseigné.
 
-## Accessibilité
+#### Accessibilité
 
 Des conditions d'affichage des messages ont été ajoutés au composant pour avertir l'utilisateur de ses erreurs de saisie. Ses messages sont bien associés au champ de saisie et les technologies d'assistance informe l'utilisateur dès que le message apparait.
 
