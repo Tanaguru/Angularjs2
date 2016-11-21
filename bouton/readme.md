@@ -11,12 +11,6 @@ Exemple réalisé par Jamesbs
 
 https://plnkr.co/users/jamesbs
 
-L'accessibilité a été réalisée en suivant les normes du RGAA.
-
-Le fork accessible réalisé par l'équipe Tanaguru :
-
-https://plnkr.co/edit/nXMDtYP5nQAaxmtKZqXt?p=preview
-
 ## Le composant
 
 Ce composant présente un simple bouton qui fait apparaitre une modal lorsqu'on l'active.
@@ -35,4 +29,10 @@ Pour que l'ensemble soit accessible, nous avons procédé aux développements su
 
 ## Développement à venir
 
-Lorsque la modal est affiché et que l'on active le bouton "Ok" avec la touche "Entrée", la modal est affichée aussitôt après avoir été fermée. Nous cherchons une solution à ce problème
+Lorsque la modal est affiché et que l'on active le bouton "Ok" avec la touche "Entrée", la modal est affichée aussitôt après avoir été fermée. Nous cherchons une solution à ce problème.
+
+## Tester notre composant
+
+Le composant accessible réalisé par l'équipe Tanaguru est testable depuis le lien Plunker suivant :
+
+https://plnkr.co/edit/nXMDtYP5nQAaxmtKZqXt?p=preview
