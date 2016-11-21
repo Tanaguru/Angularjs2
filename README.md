@@ -58,16 +58,16 @@ Afin que les technologies d'assistances puissent informer leur utilisateur du co
 
 Ces derniers permettront aux technologies d'assistance de savoir si le bloc est affiché ou non. 
 
-1) Comment fonctionne le composant
+##### 1) Comment fonctionne le composant
 
-Lorsque l'utilisateur active le bouton en cliquant dessus ou en pressant la touche "Espace" : 
+Lorsque l'utilisateur active le bouton en cliquant dessus ou en pressant la touche "Espace" :
 
 - Une fonction `toggleBlock()` est appelée ;
 - Celle-ci met à jour l'intitulé du bouton ("Afficher le bloc" ou "Masquer le bloc") ;
 - Elle met ensuite à jour les classes CSS de l'élément, en lui rajoutant "expanded-true" pour l'afficher, ou "expanded-false" dans le cas inverse ;
 - Enfin, la valeur de l'attribut "aria-expanded" du bouton est également mis à jour (cf. ci-dessous). 
 
-2) Les attributs ARIA
+##### 2) Les attributs ARIA
 
 Le bouton `toggle` comprend les attributs `aria-controls` et `aria-expanded` : 
 - Le premier prend pour valeur l'id du bloc et permet donc de faire le lien avec celui-ci. L'id est récupéré depuis l'attribut `target` (voir ci-dessus) de la balise `<toggle>` ;
