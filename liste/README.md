@@ -10,9 +10,7 @@ Exemple réalisé par Sonukapoor
 
 https://plnkr.co/users/sonukapoor
 
-L'accessibilité a été réalisée en suivant les recommandations de Romain Gervois.
-
-Voici le fork accessible réalisé par William Etiemble:
+Voici le fork accessible réalisé par l'équipe Tanaguru :
 
 https://plnkr.co/edit/hxoO2DqWwg6WOLrDd7X9?p=preview
 
