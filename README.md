@@ -36,7 +36,13 @@ Pour que l'ensemble soit accessible, nous avons procédé aux développements su
 
 #### Développement à venir
 
-Lorsque la modal est affiché et que l'on active le bouton "Ok" avec la touche "Entrée", la modal est affichée aussitôt après avoir été fermée. Nous cherchons une solution à ce problème
+Lorsque la modal est affiché et que l'on active le bouton "Ok" avec la touche "Entrée", la modal est affichée aussitôt après avoir été fermée. Nous cherchons une solution à ce problème.
+ 
+#### Tester notre composant
+
+Le composant accessible réalisé par l'équipe Tanaguru est testable depuis le Plunker suivant :
+
+https://plnkr.co/edit/nXMDtYP5nQAaxmtKZqXt?p=preview
 
 ### Toggle bouton
 
@@ -47,6 +53,12 @@ Ce composant comprend un attribut "target" prenant pour valeur l'id du bloc à a
 #### Accessibilité
 
 Le bouton a été rendu accessible et fonctionnel au clavier. Il est possible d'activer le bouton avec les touches "Entrée" et "Espace".
+ 
+#### Tester notre composant
+
+Le composant accessible réalisé par l'équipe Tanaguru est testable depuis le Plunker suivant :
+
+https://plnkr.co/edit/D0zeP4eOAR1iZHp3tNwc?p=preview
 
 ### Liste avec accumulation
 
@@ -61,6 +73,12 @@ Le bouton a été rendu accessible et fonctionnel au clavier. Il est possible d'
 #### Développement à venir 
 
 Nous pensons à supprimer ou rendre non fonctionnel le bouton lorsqu'il n'y a plus d'élément à ajouter à la liste.
+ 
+#### Tester notre composant
+
+Le composant accessible réalisé par l'équipe Tanaguru est testable depuis le Plunker suivant :
+
+https://plnkr.co/edit/hxoO2DqWwg6WOLrDd7X9?p=preview
 
 ### Input-error
 
@@ -84,6 +102,12 @@ Pour que l'ensemble soit accessible, nous avons procédé aux développements su
  - Le but est d'afficher un message indiquant à l'utilisateur qu'il a fait une erreur dans sa saisie et comment la corriger ;
  - Le message est afficher sur condition que le champ est renseigné ou non. La fonction `toggleCtrlInput` récupère la valeur du champ et si elle est vide, instantie la variable `ctrlInput` à `false` et `true` dans le cas contraire. Nous utilisons la méthode ngIf sur la balise du message pour conditionner son affichage. `<p *ngIf="ctrlInput" id="ctrlInput">Ce champ doit être impérativement renseigné.</p>`. La fonction `toggleCtrlInput` est appelée quand le champ change de valeur et quand l'utilisateur quitte le champ. `(ngModelChange)="toggleCtrlInput($event)" (blur)="toggleCtrlInput($event)"` ;
  - Le message est associé au champ grace à l'attribut `aria-describedby`. L'affichage est également conditionné par la valeur de la variable `myCtrlInput` qui prend l'identifiant du message quand il est affiché ou `null` quand il ne l'est pas. `[attr.aria-describedby]="myCtrlInput"` ;
+ 
+#### Tester notre composant
+
+Le composant accessible réalisé par l'équipe Tanaguru est testable depuis le Plunker suivant :
+
+https://plnkr.co/edit/QD5Um3?p=preview
 
 ## Crédits
 
@@ -97,18 +121,6 @@ Exemple réalisé par Jamesbs
 
 https://plnkr.co/users/jamesbs
 
-L'accessibilité a été réalisée en suivant les normes du RGAA.
-
-Le fork accessible réalisé par l'équipe Tanaguru :
-
-https://plnkr.co/edit/nXMDtYP5nQAaxmtKZqXt?p=preview
-
-### Composant Toggle bouton
-
-Le code accessible réalisé par l'équipe Tanaguru :
-
-https://plnkr.co/edit/D0zeP4eOAR1iZHp3tNwc?p=preview
-
 ### Composant liste avec accumulation
 
 Ce composant accessible est un fork de l'exemple tiré du plunker suivant : 
@@ -119,12 +131,6 @@ Exemple réalisé par Sonukapoor
 
 https://plnkr.co/users/sonukapoor
 
-L'accessibilité a été réalisée en suivant les recommandations de Romain Gervois.
-
-Le fork accessible réalisé par l'équipe Tanaguru :
-
-https://plnkr.co/edit/hxoO2DqWwg6WOLrDd7X9?p=preview
-
 ### Composant Input-error
 
 Ce composant accessible est un fork de l'exemple tiré du plunker suivant : 
@@ -134,9 +140,3 @@ https://plnkr.co/edit/DtQk2c?p=preview
 Exemple réalisé par Watrool
 
 https://plnkr.co/users/watrool
-
-L'accessibilité a été réalisée en suivant les recommandations de Romain Gervois
-
-Le fork accessible réalisé par l'équipe Tanaguru :
-
-https://plnkr.co/edit/QD5Um3?p=preview
