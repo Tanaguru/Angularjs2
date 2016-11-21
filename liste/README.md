@@ -10,10 +10,6 @@ Exemple réalisé par Sonukapoor
 
 https://plnkr.co/users/sonukapoor
 
-Voici le fork accessible réalisé par l'équipe Tanaguru :
-
-https://plnkr.co/edit/hxoO2DqWwg6WOLrDd7X9?p=preview
-
 ## Le composant
 
 Ce composant présente une liste finie d'éléments. Un bouton permet d'afficher plus d'éléments à la liste. C'est une variante de la pagination, on ne change pas de page, on affiche simplement plus d'éléments.
@@ -28,3 +24,9 @@ Pour que l'ensemble soit accessible, nous avons procédé aux développements su
 ## Développement à venir 
 
 Nous pensons à supprimer ou rendre non fonctionnel le bouton lorsqu'il n'y a plus d'élément à ajouter à la liste.
+
+## Tester notre composant
+
+Le composant accessible réalisé par l'équipe Tanaguru est testable depuis le lien Plunker suivant :
+
+https://plnkr.co/edit/hxoO2DqWwg6WOLrDd7X9?p=preview
