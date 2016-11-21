@@ -9,22 +9,24 @@ Aussi, pour faire le lien entre le bouton et cet élément, la balise <toggle> c
 
 ## Accessibilité
 
-Afin de rendre le composant accessible, le bloc et le bouton sont liés l'un à l'autre grâce aux attributs ARIA.
+Afin que les technologies d'assistances puissent informer leur utilisateur du comportement du composant, le bloc et le bouton sont liés l'un à l'autre grâce aux attributs ARIA.
 
 Ces derniers permettront aux technologies d'assistance de savoir si le bloc est affiché ou non. 
 
-1) Pour ce faire, les attributs ARIA ont été utilisés : 
+1) Comment fonctionne le composant
 
-- Le bouton `toggle` comprend les attributs `aria-controls` et `aria-expanded` : 
-  - Le premier prend pour valeur l'id du bloc et permet donc de faire le lien avec celui-ci. L'id est récupéré depuis l'attribut `target` (voir ci-dessus) de la balise <toggle>.
-  - Le second prend pour valeur un booleen ("true" or "false"), indiquant si le bloc lié est affiché ou non, et qui est mise à jour quand l'utilisateur clique sur le bouton.
+Lorsque l'utilisateur active le bouton en cliquant dessus ou en pressant la touche "Espace" : 
 
-2) Aussi, lorsque l'utilisateur clique sur le bouton : 
+- Une fonction `toggleBlock()` est appelée ;
+- Celle-ci met à jour l'intitulé du bouton ("Afficher le bloc" ou "Masquer le bloc") ;
+- Elle met ensuite à jour les classes CSS de l'élément, en lui rajoutant "expanded-true" pour l'afficher, ou "expanded-false" dans le cas inverse ;
+- Enfin, la valeur de l'attribut "aria-expanded" du bouton est également mis à jour (cf. ci-dessous). 
 
-- Une fonction `toggleBlock()` est appelée. 
-- Celle-ci met à jour l'intitulé du bouton ("Afficher le bloc" ou "Masquer le bloc"). 
-- Elle met ensuite à jour les classes CSS de l'élément, en lui rajoutant "expanded-true" pour l'afficher, ou "expanded-false" dans le cas inverse. 
-- Enfin, la valeur de l'attribut "aria-expanded" du bouton est également mis à jour. 
+2) Les attributs ARIA
+
+Le bouton `toggle` comprend les attributs `aria-controls` et `aria-expanded` : 
+ - Le premier prend pour valeur l'id du bloc et permet donc de faire le lien avec celui-ci. L'id est récupéré depuis l'attribut `target` (voir ci-dessus) de la balise <toggle> ;
+ - Le second prend pour valeur un booleen ("true" or "false"), indiquant si le bloc lié est affiché ou non, et qui est mise à jour quand l'utilisateur clique sur le bouton.
 
 ## Tester notre composant
 
