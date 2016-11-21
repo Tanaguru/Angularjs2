@@ -1,16 +1,6 @@
 
 # Bouton
 
-## Crédits
-
-Le code à été réalisé par Améziane :
-
-https://plnkr.co/users/amezigh
-
-Le code du composant accessible :
-
-https://plnkr.co/edit/D0zeP4eOAR1iZHp3tNwc?p=preview
-
 ## Le composant
 
 Ce composant se présente sous la forme d'une balise <toggle>. Celle-ci affiche un bouton `toggle`, qui lorsqu'on clique dessus, affiche ou masque un élément existant sur la page. Il peut s'agir d'un <header>, d'une <section>, d'une <div> ou encore d'un <footer> par exemple. 
@@ -35,3 +25,9 @@ Ces derniers permettront aux technologies d'assistance de savoir si le bloc est 
 - Celle-ci met à jour l'intitulé du bouton ("Afficher le bloc" ou "Masquer le bloc"). 
 - Elle met ensuite à jour les classes CSS de l'élément, en lui rajoutant "expanded-true" pour l'afficher, ou "expanded-false" dans le cas inverse. 
 - Enfin, la valeur de l'attribut "aria-expanded" du bouton est également mis à jour. 
+
+## Tester notre composant
+
+Le composant accessible réalisé par l'équipe Tanaguru est testable depuis le Plunker suivant :
+
+https://plnkr.co/edit/D0zeP4eOAR1iZHp3tNwc?p=preview
