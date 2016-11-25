@@ -1,14 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
   <head>
-    <title>Angular 2 Access Child Components From the Template</title>
+    <title>Gestion des erreurs - Angular 2</title>
     <script src="https://npmcdn.com/systemjs@0.19.38/dist/system.src.js"></script>
     <script src="https://code.angularjs.org/tools/typescript.js"></script>
     <script src="system.config.js"></script>
   </head>
   <body>
-    <my-example>Loading...</my-example>
-    
+    <main id="main" role="main">
+      <h1>Gestion des erreurs</h1>
+      <my-example>Chargement en cours...</my-example>
+    </main>
     <script>
       System.import('app');
     </script>

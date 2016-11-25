@@ -32,4 +32,4 @@ Le bouton `toggle` comprend les attributs `aria-controls` et `aria-expanded` :
 
 Le composant accessible réalisé par l'équipe Tanaguru est testable depuis le Plunker suivant :
 
-https://plnkr.co/edit/D0zeP4eOAR1iZHp3tNwc?p=preview
+https://plnkr.co/edit/C8lAmaN2uGBLDS6nStWA?p=preview

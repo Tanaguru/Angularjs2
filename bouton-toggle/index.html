@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
   <head>
     <meta charset="utf-8">
     <title>AngularJS 2 - Bouton toggle</title>
@@ -11,14 +11,18 @@
     <script src="https://code.angularjs.org/2.0.0-beta.8/Rx.js"></script>
     <script src="https://code.angularjs.org/2.0.0-beta.8/angular2.dev.js"></script>
     <script src="https://code.angularjs.org/2.0.0-beta.8/http.dev.js"></script>
-    <script>
-    System.import('app')
-      .catch(console.error.bind(console));
-  </script>
   </head>
 
-  <body>
-    <my-app></my-app>
+  <body aria-live="polite">
+    <main role="main">
+      <h1>AngularJS 2 - Bouton toggle</h1>
+      <my-app></my-app>
+    </main>
+
+    <script>
+      System.import('app')
+        .catch(console.error.bind(console));
+    </script>
   </body>
 
 </html>

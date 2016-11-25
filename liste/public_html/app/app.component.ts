@@ -6,7 +6,7 @@ import {Component} from '@angular/core';
     <for-example *ngFor="let component of components" [component]="component">
       {{component.title}}
     </for-example>
-    <button (click)="addComponent()">Click me!</button>
+    <button type="button" (click)="addComponent()">Click me!</button>
   `
 })
 export class AppComponent {
