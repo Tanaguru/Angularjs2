@@ -35,4 +35,4 @@ Lorsque la modal est affiché et que l'on active le bouton "Ok" avec la touche "
 
 Le composant accessible réalisé par l'équipe Tanaguru est testable depuis le lien Plunker suivant :
 
-https://plnkr.co/edit/BoCCRGGXByc3PAryc39I?p=preview
+https://plnkr.co/edit/BPtBKfmQrQjGdcsjRrAr?p=preview

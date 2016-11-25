@@ -36,4 +36,4 @@ Pour que l'ensemble soit accessible, nous avons procédé aux développements su
 
 Le composant accessible réalisé par l'équipe Tanaguru est testable depuis le lien Plunker suivant :
 
-https://plnkr.co/edit/QD5Um3?p=preview
+https://plnkr.co/edit/sl5Y5sJbjUa1z3vmBCxc?p=preview

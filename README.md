@@ -42,7 +42,7 @@ Lorsque la modal est affiché et que l'on active le bouton "Ok" avec la touche "
 
 Le composant accessible réalisé par l'équipe Tanaguru est testable depuis le Plunker suivant :
 
-https://plnkr.co/edit/nXMDtYP5nQAaxmtKZqXt?p=preview
+https://plnkr.co/edit/BPtBKfmQrQjGdcsjRrAr?p=preview
 
 ### Toggle bouton
 
@@ -77,7 +77,7 @@ Le bouton `toggle` comprend les attributs `aria-controls` et `aria-expanded` :
 
 Le composant accessible réalisé par l'équipe Tanaguru est testable depuis le Plunker suivant :
 
-https://plnkr.co/edit/D0zeP4eOAR1iZHp3tNwc?p=preview
+https://plnkr.co/edit/aZrmaYu53694Vgs2tx2R?p=preview
 
 ### Liste avec accumulation
 
@@ -101,7 +101,7 @@ Nous pensons à supprimer ou rendre non fonctionnel le bouton lorsqu'il n'y a pl
 
 Le composant accessible réalisé par l'équipe Tanaguru est testable depuis le Plunker suivant :
 
-https://plnkr.co/edit/hxoO2DqWwg6WOLrDd7X9?p=preview
+https://plnkr.co/edit/MeSWufMA67eJO30m3MMI?p=preview
 
 ### Input-error
 
@@ -130,7 +130,7 @@ Pour que l'ensemble soit accessible, nous avons procédé aux développements su
 
 Le composant accessible réalisé par l'équipe Tanaguru est testable depuis le Plunker suivant :
 
-https://plnkr.co/edit/QD5Um3?p=preview
+https://plnkr.co/edit/sl5Y5sJbjUa1z3vmBCxc?p=preview
 
 ## Crédits
 
