@@ -101,7 +101,7 @@ Nous pensons à supprimer ou rendre non fonctionnel le bouton lorsqu'il n'y a pl
 
 Le composant accessible réalisé par l'équipe Tanaguru est testable depuis le Plunker suivant :
 
-https://plnkr.co/edit/MeSWufMA67eJO30m3MMI?p=preview
+https://plnkr.co/edit/BPtBKfmQrQjGdcsjRrAr?p=preview
 
 ### Input-error
 
