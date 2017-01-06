@@ -178,10 +178,10 @@ L'Offrant ne peut retirer les autorisations concédées par la licence tant que 
 
 ### Selon les conditions suivantes :
 
-![](https://github.com/Tanaguru/Angularjs2/blob/dev/assets/licence01.png)
+![](https://github.com/Tanaguru/Angularjs2/blob/master/assets/licence01.png)
 **Attribution** — Vous devez **créditer** l'Œuvre, intégrer un lien vers la licence et **indiquer** si des modifications ont été effectuées à l'Oeuvre. Vous devez indiquer ces informations par tous les moyens raisonnables, sans toutefois suggérer que l'Offrant vous soutient ou soutient la façon dont vous avez utilisé son Oeuvre. 
 
-![](https://github.com/Tanaguru/Angularjs2/blob/dev/assets/licence02.png)
+![](https://github.com/Tanaguru/Angularjs2/blob/master/assets/licence02.png)
 **Partage dans les Mêmes Conditions** — Dans le cas où vous effectuez un remix, que vous transformez, ou créez à partir du matériel composant l'Oeuvre originale, vous devez diffuser l'Oeuvre modifiée dans les même conditions, c'est à dire avec **la même licence** avec laquelle l'Oeuvre originale a été diffusée. 
 
 **Pas de restrictions complémentaires** — Vous n'êtes pas autorisé à appliquer des conditions légales ou des **mesures techniques** qui restreindraient légalement autrui à utiliser l'Oeuvre dans les conditions décrites par la licence.
