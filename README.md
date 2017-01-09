@@ -9,6 +9,14 @@ Au début du projet, 4 composants ont été rendus accessibles.
 
 Le but est aussi de faire évoluer cette liste pour offrir un maximum de possibilités aux développeurs.
 
+## Installation et utilisation des composants
+
+Toutes les ressources nécessaires pour faire fonctionner les composants sont récupérées depuis des CDN. Aussi, aucune ressource supplémentaire (dépendance) n'est requise.
+
+Néanmoins, le projet doit être déployé et lancé sur un serveur distant ou local (localhost) pour que celles-ci puissent être récupérées et donc le projet fonctionner.
+
+Vous pouvez également les tester depuis les liens plunker de chaque composant qui vous sont donnés ci-dessous.
+
 ## La liste des composants
 La liste des développements rendus accessibles :
  - Un bouton affichant une modale ;
